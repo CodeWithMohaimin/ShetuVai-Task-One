@@ -7,12 +7,128 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-  
+.navbar{
+    background-image: url(./image/Rectangle\ 11.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 111;
+    min-height: 100vh;
+    margin-left: 40px;
+}
+.circleImage{
+    position: absolute;
+    z-index: 0;
+}
+.circleImage img{
+    width: 100%;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
 nav a{
     text-decoration: none;
-    font-size: 20px;
+    font-size: 16px;
     margin: 0 7px;
     padding: 7px 10px;
     color: #333;
     text-transform: uppercase;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    padding: 0 30px;
+}
+.heroText{
+    max-width: 480px;
+    background-image: url(./image/Vector\ 1.png);
+    background-repeat: no-repeat;
+    padding: 10px 0;
+}
+.heroText h1{
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 68px;
+}
+.heroImage {
+    background-image: url(./image/Rectangle\ 10.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 30px;
+    position: relative;
+    
+}
+.heroImage img{
+    width: 100%;
+    border-radius: 400px 400px 0 0;
+    margin-top: 10px;
+}
+.one{
+    position: absolute;
+    top: -60px;
+    right: -180px;
+}
+.two{
+    position: absolute;
+    top: 210px;
+    right: -230px;
+}
+.three{
+    position: absolute;
+    top: 100px;
+    right: -300px;
+}
+.coWorking{
+    position: absolute;
+    right: -80px;
+    bottom: 0px;
+}
+
+.bg_blur{
+    margin-top: 50px;
+    width: 700px;
+    height: 80px;
+    position: relative;
+    z-index: 111;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: rgba(243, 243, 243, 0.6);
+    backdrop-filter: blur(17.7606px);
+    border-radius: 5px;
+}
+.bg_blur a{
+    text-decoration: none;
+    color: #333;
+}
+.bg_blur a:last-child{
+    text-decoration: none;
+    background: #FD5B2F;
+    border-radius: 5.22371px;
+    padding: 15px 37px;
+    gap: 10.45px;
+    color: #fff;
+    font-size:16px;
+}
+.groupImage{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.groupImage p{
+    font-size: 14px;
+}
+.companyLogos{
+    display: flex;
+    justify-content: center;
+    margin: 100px 0;
 }
