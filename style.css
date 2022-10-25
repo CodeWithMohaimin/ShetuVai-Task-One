@@ -93,7 +93,7 @@ nav a{
 
 .bg_blur{
     margin-top: 50px;
-    width: 700px;
+    width: 800px;
     height: 80px;
     position: relative;
     z-index: 111;
@@ -101,8 +101,8 @@ nav a{
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background: rgba(243, 243, 243, 0.6);
-    backdrop-filter: blur(17.7606px);
+    background: rgba(243, 243, 243, 0.5);
+    backdrop-filter: blur(5px);
     border-radius: 5px;
 }
 .bg_blur a{
