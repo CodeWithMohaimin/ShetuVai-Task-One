@@ -16,7 +16,7 @@ Just play with Html, CSS. But this is a good one
 
 ## Links
 
-- [Live Demo]( [live_link](https://codewithmohaimin.github.io/ShetuVai-Task-One/) )
+- [Live Demo](https://codewithmohaimin.github.io/ShetuVai-Task-One/)
 - [My YouTube Channel](https://www.youtube.com/@CodeWithMohaimin)
 
 ## Credits
